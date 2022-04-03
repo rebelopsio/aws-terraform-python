@@ -17,7 +17,7 @@ _Folder structure:_
 └── python-diagrams
 ```
 
-The approach will be pretty simple, I'll nest a directory under `architecture` and include the necessary #terraform to build that infrastructure. I'll build modules for reusability and nest those in the `library/terraform` directory. I'll then write the #python to create the diagrams and next those as individual directories under `reports`.
+The approach will be pretty simple, I'll nest a directory under `architecture` and include the necessary #terraform to build that infrastructure. I'll build modules for reusability and nest those in the `library/terraform-modules` directory. I'll then write the #python to create the diagrams and next those as individual directories under `python-reports`.
 
 ### Continuous integration
 I'll ensure that I also configure some GitHub Actions for the #terraform and #python code. At the very least just to ensure that the code is validated and linted, etc.
